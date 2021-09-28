@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+body{
+  margin: 0;
+  padding: 0;
+  background-color: antiquewhite;
+  font-family: 'Roboto Mono', monospace;
+
+}
+
+nav{
+  background-color: rgb(216, 61, 61);
+  height: 80px;
+  font-family: 'Roboto Mono', monospace;
+}
+
+#page-title{
+  display: inline-block;
+  font-size: 40px;
+  margin-top: 10px;
+  color: antiquewhite;
+}
+.header-buttons{
+  display: inline-block;
+  font-family: 'Roboto Mono', monospace;
+  background-color: antiquewhite;
+  float: right;
+  margin-right: 30px;
+  margin-top: 20px;
+  height: 40px;
+  font-size: 20px;
+  border-radius: 10px;
+  border: 1px black solid;
+}
+.header-buttons:hover{
+  background-color: whitesmoke;
+  cursor: pointer;
+}
+#form-title{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 150px;
+  font-size: 30px;
+  font-family: 'Roboto Mono', monospace; 
+  font-weight: bold;
+  
+}
+#form-overlay{
+  font-family: 'Lato', sans-serif;
+  padding-left: 60px;
+  margin-top: 220px;
+  margin-left: 35%;
+  position: fixed;
+  background-color: rgb(179, 171, 162);
+  width: 500px;
+  height: 330px;
+  border-radius: 10px;
+  font-size: 25px;
+  border: 6px black double;
+  display: none;
+  color: white;
+}
+
+#cancel-button{
+  font-family: 'Lato', sans-serif;
+  margin-left: 4rem;
+  margin-right: 1rem;
+  height: 40px;
+  width: 150px;
+  font-size: 20px;
+  border-radius: 10px;
+  border: 1px black solid;
+  background: rgb(199, 161, 161);
+}
+#cancel-button:hover{
+  background: rgb(161, 129, 129);
+  cursor: pointer;
+}
+#append-book{
+  font-family: 'Lato', sans-serif;
+  height: 40px;
+  width: 150px;
+  font-size: 20px;
+  border-radius: 10px;
+  background: rgb(129, 177, 129);
+  border: 1px black solid;
+}
+
+#append-book:hover{
+  background: rgb(108, 150, 108);
+  cursor: pointer;
+}
+.textbox{
+  margin-bottom: 10px;
+  height: 30px;
+  font-size: 25px;
+}
+#title{
+  width: 350px;
+}
+#pages{
+  width: 335px;
+}
+#read{
+  height: 25px;
+  width: 25px;
+}
+
+#add{
+  width: 70px;
+}
+#book-collection li{
+  font-size: 25px;
+  color: white;
+  display: inline-block;
+  background-color:rgb(212, 174, 103);
+  padding: 10px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  border: 4px rgb(187, 141, 56) outset;
+  width: 340px;
+}
+
+
+#remove{
+  font-family: 'Roboto Mono', monospace; 
+  margin-right: 1rem;
+  font-size: 20px;
+  width: 100px;
+  margin-top: 8px;
+  border: 2px rgb(206, 201, 201) outset;
+  background: rgb(197, 189, 189);
+}
+
+#remove:hover{
+  background: rgb(129, 126, 126) ;
+  cursor: pointer;
+}
+
+#update{
+  font-family: 'Roboto Mono', monospace; 
+  margin-right: 1rem;
+  font-size: 20px;
+  width: 100px;
+  margin-top: 8px;
+  border: 2px rgb(206, 201, 201) outset;
+  background: rgb(197, 189, 189);
+}
+
+#update:hover{
+  background: rgb(129, 126, 126) ;
+  cursor: pointer;
+}
+

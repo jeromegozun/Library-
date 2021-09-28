@@ -1,0 +1,38 @@
+<html>
+  <head>
+    <title>Library</title>
+    <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<link rel="stylesheet" href="style.css">
+<script src="script.js" defer></script>
+<Body>
+<nav>
+  <ul>
+  <li id = 'page-title'>Book Collection</li>
+  <button class="header-buttons" id = "add-book">Add Book</button>
+  <button class="header-buttons" id = "clear-last-book">Clear Last Book</button>
+  <button class="header-buttons" id = "clear-everything">Clear Everything</button>
+  </ul>
+</nav>
+<div id = "form-overlay">
+  <div>
+   <header id = "form-title">New Book</header>
+  </div>
+  <form>
+    <label for= "title">Title:</label>
+    <input id= "title" type="text" class="textbox"> <br>
+    <label for= "title">Author:</label>
+    <input id=  "author" type="text" class="textbox"><br>
+    <label for= "title">Pages:</label>
+    <input id=  "pages" type= "number" min="0" class="textbox"><br>
+    <label for= "read">Read: </label>
+    <input id= "read" type="checkbox" name="read-status" class="textbox">
+  </form>
+  <button id ="cancel-button">Cancel</button>
+  <button id = "append-book">Add</button>
+</div >
+<div >
+  <ul  id ="book-collection">
+  </ul>
+</div>
+</Body>
